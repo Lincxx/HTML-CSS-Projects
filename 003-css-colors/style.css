@@ -1,0 +1,43 @@
+/* colors, background */
+
+/* #first {
+  color:white;
+  background: #000;
+}
+
+#second {
+  background: yellow;
+  color: red;
+} */
+
+/* color names  > 147 */
+/* #first {
+  color:tomato;
+  background-color:antiquewhite;
+}
+
+#second {
+  background: yellow;
+  color: red;
+} */
+
+/* RGB */
+/* body {
+  background-color: rgb(234, 232,122);
+}
+#first {
+  color: rgb(123, 34, 34);
+  background-color: rgb(255,155,124);
+} */
+
+/* RGBA */
+/* #first {
+  color: rgb(123, 34, 34);
+  background-color: rgba(255,155,124, 0.3);
+} */
+
+/* HEX Values */
+#first {
+  color: #4e4324;
+  background-color: #4e4324;
+}
