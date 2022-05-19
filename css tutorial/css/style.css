@@ -1,9 +1,118 @@
-h1{
-  color: green;
-  font-size: 20px;
+/* h1 {
+  color:blue;
 }
 
-h3{
+h2 {
+  color: green;
+}
+
+p {
+  color:gray;
+} */
+
+/* grouped selectors */
+
+/* h1, h2, p {
+  color:blue;
+} */
+
+
+/* id selector */
+/* #title {
   color: blue;
+  background: #000;
+}
+
+#footer {
+  background-color: yellow;
+  color: gray;
+} */
+
+/* class selector
+.red {
+  color: red;
+  background:gray;
+}
+
+.green {
+  color: green;
+} */
+
+
+/* class and id selector */
+/* .red {
+  color: red;
+  background:gray;
+}
+
+.green {
+  color: green;
+}
+
+#title{
   font-size: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+} */
+
+/* div and span */
+/* .red {
+  color:red;
+  background: #000;
+}
+
+.green {
+  color: green;
+  background: yellow;
+}
+
+.text {
+  text-transform: uppercase;
+} */
+
+/* inheritance  */
+/* body {
+  color: red;
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 20px;
+  border: 3px solid #000;
+}
+
+.special{
+  color: yellow;
+  background: gray;
+  font-size: 30px;
+} */
+
+/* Last rule, specifcity and universal selector */
+
+/* p {
+  color: red;
+}
+
+/* 
+  more here!!!
+*/
+
+/* p {
+  color: blue;
+}
+
+.special{
+  color: yellow;
+  background: gray;
+  font-size: 30px;
+}
+
+* {
+  color: green;
+}  */
+
+/* Combine Selectors - descendent selector */
+
+.container p {
+  color: red;
 }
