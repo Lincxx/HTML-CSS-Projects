@@ -28,8 +28,11 @@
   2em = base value (16px) * number (2) = 32px
   2em = base value (10px) * number (2) = 20px
 */
+div {
+  font-size: 10px;
+}
+
 .relative {
-  /* this depends on the browser */
   font-size: 2em;
 }
 
