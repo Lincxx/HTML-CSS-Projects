@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+body {
+  font-family: "Open Sans";
+}
+
+h1, h2 {
+  font-family: "Roboto";
+}
