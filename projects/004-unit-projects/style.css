@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+#navbar{
+  background-color: #eee;
+  /* height: 15vh; */
+  height: 5rem;
+}
+
+.logo {
+  color: red;
+  font-size: 24px;
+}
+
+.hero {
+  color: #eee;
+  background-color: #333;
+  /* min-height: calc(100vh - 15vh); */
+  min-height: calc(100vh - 5rem);
+}
+
+.hero span {
+  color: red;
+  font-size: 24px;
+}
+
+.hero-btn {
+  background-color: red;
+  color: white;
+} 
