@@ -1,0 +1,27 @@
+/* container */
+body {
+  background-color: rgba(211, 240, 245, 0.4);
+}
+
+.first {
+  background-color: white;
+}
+
+h3 {
+  color: rgb(224, 128, 243);
+}
+
+/* not needed, just some practice */
+.first p,
+.second p,
+.third p {
+  color: rgb(102, 101, 102);
+}
+
+.second {
+  background-color: white;
+}
+
+.third {
+  background-color: black;
+}
