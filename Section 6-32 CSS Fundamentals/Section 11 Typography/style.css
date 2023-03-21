@@ -1,0 +1,42 @@
+/* 
+font-size - size of the fonts
+font-family - describe the font of the element.
+----------------------------------
+font-stack - generic-family
+serif, sans-serif, cursive, fantasy, monospace
+----------------------------------
+text-align, text-indent
+----------------------------------
+line-height - if number * by font-size
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+
+/* 30px */
+body {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* 60px */
+h1 {
+  font-size: 40px;
+}
+
+.one {
+  letter-spacing: 5px;
+}
+
+.two {
+  word-spacing: 10px;
+}
+
+.three {
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}

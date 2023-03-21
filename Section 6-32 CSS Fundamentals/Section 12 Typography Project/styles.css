@@ -1,0 +1,15 @@
+/* 
+- select two styles in google fonts
+- import using one of the options
+- add one to entire body
+- second to all headings
+- refactor to system fonts
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:wght@400;700;900&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+.container h2 {
+  font-family: "Roboto", sans-serif;
+}
