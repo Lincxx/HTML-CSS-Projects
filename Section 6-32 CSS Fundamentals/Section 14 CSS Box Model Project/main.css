@@ -1,0 +1,91 @@
+/* 
+- select body, add system fonts and background (#f1f5f9)
+
+- select .card, add background(#fff), padding, align text in the center, max-width, margin, border-radius, border
+
+- select .card-1, add border color (#ff69a6)
+
+- select .icon, add width, height, border radius(make it round)
+
+- add background (#ff69a6), only to first icon
+
+- X select .title, capitalize text, letter spacing
+
+-  X select .text, setup line height, add color (#64748b)
+
+- select .btn, capitalize text, make border transparent, add border radius, padding, letter spacing
+- select .btn-pink, add background (#ffe8f1) and color (#ff69a6);
+
+- select .btn-blue, add background (#ecf4ff) and color (#68a3ff);
+
+- make background for icon in the
+  .card-2 (#68a3ff)
+- make border color for the .card-2 (#68a3ff)
+
+*/
+body {
+  background: #f1f5f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.25rem;
+  text-align: center;
+  max-width: 300px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.card-1 {
+  border: 1px solid #ff69a6;
+}
+
+.card-1 .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ff69a6;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.text {
+  line-height: 1.5rem;
+  color: #64748b;
+}
+
+.card-2 {
+  border: 1px solid #68a3ff;
+}
+
+.card-2 .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #68a3ff;
+  margin: 0 auto;
+}
+
+.btn {
+  text-transform: capitalize;
+  border-color: transparent;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+}
+
+.btn-pink {
+  background-color: #ffe8f1;
+  color: #ff69a6;
+}
+
+.btn-blue {
+  background: #ecf4ff;
+  color: #68a3ff;
+}
