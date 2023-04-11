@@ -1,0 +1,18 @@
+.banner {
+border: red solid 1px;
+padding: 10px;
+}
+
+.one {
+    float: left;
+}
+
+.two {
+    float: right;
+    height: 40px;
+}
+
+p {
+    clear: both;
+}
+
