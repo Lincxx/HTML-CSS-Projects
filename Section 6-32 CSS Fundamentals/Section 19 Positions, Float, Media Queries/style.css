@@ -1,7 +1,9 @@
 /* 
-position static - default, always positioned according to the normal flow
-position: relative - position relative to it's normal position
+-position static - default, always positioned according to the normal flow
+-position: relative - position relative to it's normal position
     top, bottom, left, right
+-position:absolute - relative to the parent with position:relative
+-position:fixed - relative to viewport(screen), stays as we are scrolling will use other content to fill out the space
 */
 div{
     border: 3px solid red;
@@ -12,7 +14,7 @@ div{
 .one {
     background-color: blue;
     color: white;
-    position: relative;
+    /* position: relative; */
     /* top: 200px; */
     /* bottom: 2rem; */
     /* left: 15%; */
@@ -22,10 +24,17 @@ div{
 .two {
     background-color: green;
     color: white;
+    position: relative;
 }
 
 .special {
     background-color: pink;
     font-size: 20px;
     color: #222;
+    position: absolute;
+    /* goes to the upper lest corner because of the body relative 
+        if we add position: relative to .two, it will be place inside there top 0, left 0
+    */
+    top: 0;
+    left: 0;
 }
