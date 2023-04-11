@@ -4,15 +4,16 @@
     top, bottom, left, right
 -position:absolute - relative to the parent with position:relative
 -position:fixed - relative to viewport(screen), stays as we are scrolling will use other content to fill out the space
+-position:sticky - toggles between relative and fixed once the position is met in the viewport - then it sticks - one the values top, left, bottom, right
 */
 .nav {
     background-color: red;
     color: white;
     font-size: 1.5rem;
-    position: fixed;
+    position: sticky;
     margin: 0;
-    top: 0;
-    left: 0;
+    top: 20px;
+
     width: 100%;
 }
 div{
@@ -34,7 +35,6 @@ div{
 .two {
     background-color: green;
     color: white;
-    height: 1200px;
     /* position: relative; */
 }
 
@@ -48,4 +48,8 @@ div{
     */
     /* top: 0;
     left: 0; */
+}
+
+.container {
+    height: 300vh;
 }
