@@ -5,6 +5,16 @@
 -position:absolute - relative to the parent with position:relative
 -position:fixed - relative to viewport(screen), stays as we are scrolling will use other content to fill out the space
 */
+.nav {
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 div{
     border: 3px solid red;
     background-color: yellow;
@@ -24,17 +34,18 @@ div{
 .two {
     background-color: green;
     color: white;
-    position: relative;
+    height: 1200px;
+    /* position: relative; */
 }
 
 .special {
     background-color: pink;
     font-size: 20px;
     color: #222;
-    position: absolute;
+    /* position: absolute; */
     /* goes to the upper lest corner because of the body relative 
         if we add position: relative to .two, it will be place inside there top 0, left 0
     */
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
 }
