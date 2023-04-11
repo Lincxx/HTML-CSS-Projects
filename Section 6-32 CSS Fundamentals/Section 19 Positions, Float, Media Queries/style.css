@@ -1,3 +1,8 @@
+/* 
+position static - default, always positioned according to the normal flow
+position: relative - position relative to it's normal position
+    top, bottom, left, right
+*/
 div{
     border: 3px solid red;
     background-color: yellow;
@@ -7,6 +12,11 @@ div{
 .one {
     background-color: blue;
     color: white;
+    position: relative;
+    /* top: 200px; */
+    /* bottom: 2rem; */
+    /* left: 15%; */
+    /* right: 14em; */
 }
 
 .two {
