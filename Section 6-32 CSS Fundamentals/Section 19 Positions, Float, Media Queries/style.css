@@ -1,32 +1,21 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 div{
-    height: 200px;
-    width: 50%;
-    float: right;
+    border: 3px solid red;
+    background-color: yellow;
+    margin-top: 40px;
 }
 
 .one {
-    background-color: red;
+    background-color: blue;
+    color: white;
 }
-
 
 .two {
     background-color: green;
+    color: white;
 }
 
-.three {
-    background-color: blue;
-}
-
-.four {
-    background-color: yellow;
-}
-
-h1 {
-    clear: both;
+.special {
+    background-color: pink;
+    font-size: 20px;
+    color: #222;
 }
